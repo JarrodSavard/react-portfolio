@@ -1,4 +1,22 @@
+
 .section-title{
   text-align: center;
+  margin: 0 125px;
   margin-top: 150px;
+  border-bottom: 1px solid black;
+}
+
+.info{
+  margin: 0 250px;
+  margin-top: 50px;
+  p{
+    margin: 50px;
+  }
+  h2{
+    text-align: center;
+  }
+  .items{
+    display: flex;
+    justify-content: space-between;
+  }
 }
