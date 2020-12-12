@@ -22,18 +22,17 @@ const About = (props) => (
     <h1 className="section-title">ABOUT</h1>
     <div className="info">
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
-        quas dignissimos voluptas rem soluta, minima sint voluptate labore
-        ratione impedit magnam amet quis, in ex aliquam velit voluptatum omnis
-        accusantium? Vero quis eum, quaerat odio adipisci blanditiis sequi
-        doloremque architecto ducimus! Repellat rem libero ducimus quia esse,
-        debitis rerum eveniet alias non ab. In natus, laborum incidunt, aliquid
-        temporibus minus reiciendis ut perspiciatis corporis mollitia ullam,
-        consequuntur voluptates nam omnis quae iste fuga? Laudantium ut
-        accusantium ex? Repellat ipsam ad, nobis labore voluptatum praesentium
-        iste voluptate deleniti sapiente laborum quis voluptatibus earum
-        quibusdam maiores. Amet dolores maiores itaque repellendus voluptatum
-        consectetur excepturi
+        Hi, my name is Jarrod Savard and I'm a software engineer that
+        specializes in JavaScript and Python located in Torrance, CA.
+        <br />
+        While coding in JavaScript I use frameworks such as Node.js and Reactjs.
+        Node.js is great for use cases that require a backend to be linked such
+        as a database, files to be read and/or written, and for APIs to be used
+        or written.
+        <br />
+        While using Python I use frameworks Pandas and Matplotlib to create
+        databases of csv files and plot them into a visual representation of
+        that database.
       </p>
       <h2>Languages & Frameworks</h2>
       <div className="items">
