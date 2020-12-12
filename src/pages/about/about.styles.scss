@@ -1,16 +1,18 @@
-.section-title{
+.section-title {
+  text-align: center;
+  border-bottom: 1px solid grey;
+  margin: 0 10%;
   text-align: center;
 }
 
-.info{
-  h2{
+.info {
+  h2 {
     text-align: center;
   }
-  p{
+  p {
     margin: 20px 200px;
   }
 }
-
 
 .items {
   display: flex;
