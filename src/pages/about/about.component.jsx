@@ -3,11 +3,24 @@ import './about.styles.scss';
 
 import ItemCard from '../../components/item-card/item-card.component';
 
+//IMAGES
+import HTML from '../../assets/images/Html_logo.png';
+import CSS from '../../assets/images/Css_logo.png';
+import SCSS from '../../assets/images/Sass_logo.png';
+import JavaScript from '../../assets/images/JavaScript_logo.png';
+import Node from '../../assets/images/Node_logo.png';
+import Reactjs from '../../assets/images/React_logo.png';
+import API from '../../assets/images/API_logo.png';
+import Python from '../../assets/images/Python_icon.png';
+import Pandas from '../../assets/images/Pandas_logo.png';
+import Matplotlib from '../../assets/images/Matplotlib_logo.png';
+import Mongodb from '../../assets/images/Mongodb_logo.png';
+import Firebase from '../../assets/images/Firebase_logo.png';
+
 const About = (props) => (
   <div className="container">
     <h1 className="section-title">ABOUT</h1>
     <div className="info">
-      <h2>Languages & Frameworks</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
         quas dignissimos voluptas rem soluta, minima sint voluptate labore
@@ -22,27 +35,20 @@ const About = (props) => (
         quibusdam maiores. Amet dolores maiores itaque repellendus voluptatum
         consectetur excepturi
       </p>
+      <h2>Languages & Frameworks</h2>
       <div className="items">
-        <ItemCard
-          name="name"
-          price="23"
-          imageUrl="https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg"
-        />
-        <ItemCard
-          name="name"
-          price="23"
-          imageUrl="https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg"
-        />
-        <ItemCard
-          name="name"
-          price="23"
-          imageUrl="https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg"
-        />
-        <ItemCard
-          name="name"
-          price="23"
-          imageUrl="https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg"
-        />
+        <ItemCard name="HTML" imageUrl={HTML} />
+        <ItemCard name="CSS" imageUrl={CSS} />
+        <ItemCard name="SCSS" imageUrl={SCSS} />
+        <ItemCard name="JavaScript" imageUrl={JavaScript} />
+        <ItemCard name="Node" imageUrl={Node} />
+        <ItemCard name="Reactjs" imageUrl={Reactjs} />
+        <ItemCard name="API" imageUrl={API} />
+        <ItemCard name="Python" imageUrl={Python} />
+        <ItemCard name="Pandas" imageUrl={Pandas} />
+        <ItemCard name="Matplotlib" imageUrl={Matplotlib} />
+        <ItemCard name="Mongodb" imageUrl={Mongodb} />
+        <ItemCard name="Firebase" imageUrl={Firebase} />
       </div>
     </div>
   </div>

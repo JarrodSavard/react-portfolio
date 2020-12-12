@@ -1,7 +1,7 @@
 import React from 'react';
 import './item-card.styles.scss';
 
-const ItemCard = ({ id, name, price, imageUrl }) => (
+const ItemCard = ({ id, name, imageUrl }) => (
   <div className="collection-item">
     <div
       className="image"
