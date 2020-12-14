@@ -4,18 +4,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
+  :hover {
+    cursor: pointer;
+  }
   .image {
     width: 150px;
     height: 150px;
     background-size: cover;
     background-position: center;
-    
   }
 
   .collection-footer {
     text-align: center;
     font-size: 18px;
-
   }
 }
