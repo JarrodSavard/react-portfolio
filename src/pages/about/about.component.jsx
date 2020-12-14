@@ -25,14 +25,19 @@ const About = (props) => (
         Hi, my name is Jarrod Savard and I'm a software engineer that
         specializes in JavaScript and Python located in Torrance, CA.
         <br />
+        <br />
         While coding in JavaScript I use frameworks such as Node.js and Reactjs.
         Node.js is great for use cases that require a backend to be linked such
         as a database, files to be read and/or written, and for APIs to be used
-        or written.
+        or written. Reactjs is a great framework used to improve performance by
+        breaking web applications up into components and rendering them as a
+        single html file.
         <br />
-        While using Python I use frameworks Pandas and Matplotlib to create
-        databases of csv files and plot them into a visual representation of
-        that database.
+        <br />
+        While using Python I use frameworks Pandas and Matplotlib. Pandas is
+        great to create and modify databases in a csv format. Matplotlib is
+        mainly used to plot data into a visual representation using graphs such
+        as plot, bar, and pie charts.
       </p>
       <h2>Languages & Frameworks</h2>
       <div className="items">
