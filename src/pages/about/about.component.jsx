@@ -24,16 +24,18 @@ const About = (props) => (
       <p>
         Hi, my name is Jarrod Savard and I'm a software engineer that
         specializes in JavaScript and Python located in Torrance, CA.
-        <br />
-        <br />
+      </p>
+      <br />
+      <p>
         While coding in JavaScript I use frameworks such as Node.js and Reactjs.
         Node.js is great for use cases that require a backend to be linked such
         as a database, files to be read and/or written, and for APIs to be used
         or written. Reactjs is a great framework used to improve performance by
         breaking web applications up into components and rendering them as a
         single html file.
-        <br />
-        <br />
+      </p>
+      <br />
+      <p>
         While using Python I use frameworks Pandas and Matplotlib. Pandas is
         great to create and modify databases in a csv format. Matplotlib is
         mainly used to plot data into a visual representation using graphs such
@@ -41,18 +43,66 @@ const About = (props) => (
       </p>
       <h2>Languages & Frameworks</h2>
       <div className="items">
-        <ItemCard name="HTML" imageUrl={HTML} />
-        <ItemCard name="CSS" imageUrl={CSS} />
-        <ItemCard name="SCSS" imageUrl={SCSS} />
-        <ItemCard name="JavaScript" imageUrl={JavaScript} />
-        <ItemCard name="Node" imageUrl={Node} />
-        <ItemCard name="Reactjs" imageUrl={Reactjs} />
-        <ItemCard name="API" imageUrl={API} />
-        <ItemCard name="Python" imageUrl={Python} />
-        <ItemCard name="Pandas" imageUrl={Pandas} />
-        <ItemCard name="Matplotlib" imageUrl={Matplotlib} />
-        <ItemCard name="Mongodb" imageUrl={Mongodb} />
-        <ItemCard name="Firebase" imageUrl={Firebase} />
+        <ItemCard
+          name="HTML"
+          imageUrl={HTML}
+          link="https://developer.mozilla.org/en-US/docs/Web/HTML"
+        />
+        <ItemCard
+          name="CSS"
+          imageUrl={CSS}
+          link="https://developer.mozilla.org/en-US/docs/Web/CSS"
+        />
+        <ItemCard
+          name="SCSS"
+          imageUrl={SCSS}
+          link="https://sass-lang.com/documentation"
+        />
+        <ItemCard
+          name="JavaScript"
+          imageUrl={JavaScript}
+          link="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        />
+        <ItemCard
+          name="Node"
+          imageUrl={Node}
+          link="https://nodejs.org/en/docs/"
+        />
+        <ItemCard
+          name="Reactjs"
+          imageUrl={Reactjs}
+          link="https://reactjs.org/docs/getting-started.html"
+        />
+        <ItemCard
+          name="API"
+          imageUrl={API}
+          link="https://developer.mozilla.org/en-US/docs/Web/API"
+        />
+        <ItemCard
+          name="Python"
+          imageUrl={Python}
+          link="https://docs.python.org/3/"
+        />
+        <ItemCard
+          name="Pandas"
+          imageUrl={Pandas}
+          link="https://pandas.pydata.org/docs/"
+        />
+        <ItemCard
+          name="Matplotlib"
+          imageUrl={Matplotlib}
+          link="https://matplotlib.org/3.3.3/contents.html"
+        />
+        <ItemCard
+          name="Mongodb"
+          imageUrl={Mongodb}
+          link="https://docs.mongodb.com/manual/core/document/"
+        />
+        <ItemCard
+          name="Firebase"
+          imageUrl={Firebase}
+          link="https://firebase.google.com/docs"
+        />
       </div>
     </div>
   </div>
