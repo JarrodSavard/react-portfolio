@@ -4,18 +4,15 @@ import './header.styles.scss';
 
 const Header = (props) => (
   <div className="header">
-    <Link className="logo-container" to="/">
+    <Link className="logo-container" to="/about">
       <p>IMG</p>
     </Link>
     <div className="options">
-      <Link className="option" to="/">
-        Home
+      <Link className="option" to="/about">
+        About
       </Link>
       <Link className="option" to="/projects">
         Projects
-      </Link>
-      <Link className="option" to="/about">
-        About
       </Link>
       <Link className="option" to="/contact">
         Contact
