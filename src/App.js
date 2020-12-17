@@ -6,6 +6,7 @@ import './App.css';
 import Header from './components/header/header.component';
 // Pages
 import About from './pages/about/about.component';
+import ProjectPage from './pages/projects/projects.component'
 
 class App extends Component {
   render() {
@@ -14,7 +15,8 @@ class App extends Component {
         <Header />
         <Switch>
           <Route path="/" exact component={About} />
-          <Route path="/about" component={About} />
+          <Route path="/about" component={About} /> 
+          <Route path="/projects" component={ProjectPage} /> 
         </Switch>
       </div>
     );
