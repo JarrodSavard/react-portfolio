@@ -1,0 +1,55 @@
+.project-card-item {
+  width: 147px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all ease 200ms;
+  opacity: 1;
+
+  .project-card-image {
+    width: 143px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .projects-btn {
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom-left-radius: 10px;
+  }
+  .project-name {
+    text-align: center;
+    font-size: 18px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+    width: 143px;
+    background: rgba(0, 0, 0, 0.05);
+    font-weight: bold;
+    padding: 5px 0;
+  }
+
+  .sc-btn {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom-right-radius: 10px;
+  }
+  button {
+    border: none;
+    height: 35px;
+    background: rgba(0, 0, 0, 0.05);
+
+    &:hover {
+      cursor: pointer;
+      background-color: rgba(0, 128, 0, 0.432);
+    }
+    &:focus{
+      outline: none;
+    }
+  }
+}
