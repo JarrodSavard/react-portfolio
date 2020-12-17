@@ -1,11 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './header.styles.scss';
-import LOGO from '../../assets/images/API_logo.png';
 
 const Header = (props) => (
   <div className="header">
-    <Link className="logo-container" to="/about">
+    <Link className="logo-container" to="/">
       <h2>Jarrod Savard</h2>
     </Link>
     <div className="options">
